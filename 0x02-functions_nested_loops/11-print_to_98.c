@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *print_last_digit - asas
+ *print_to_98 - asas
  *
  *@n: sdf
  * Return:asd
