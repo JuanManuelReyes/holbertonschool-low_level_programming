@@ -3,7 +3,7 @@
 /**
  *_islower - asas
  *
- *
+ *@c: sdf
  * Return:asd
 */
 int _islower(int c)
