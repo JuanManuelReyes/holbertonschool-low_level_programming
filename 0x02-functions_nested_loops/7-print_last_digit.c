@@ -11,10 +11,9 @@ int print_last_digit(int n)
 	int las-dig = n % 10
 
 	if(las-dig < 0)
-	{
 		las-dig *= -1;
-	}
-	_putchar(las-dig + 'o');
+
+	_putchar(las-dig + '0');
 	return (las-dig);
 
 }
