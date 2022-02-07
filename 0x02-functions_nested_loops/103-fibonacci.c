@@ -9,7 +9,7 @@
 int main(void)
 {
 long n1 = 0, n2 = 1, sum;
-long total;
+float total;
 
 	while (1)
 	{
@@ -23,7 +23,8 @@ long total;
 		n1 = n2;
 		n2 = sum;
 	}
-	printf("%ld\n", total);
+	printf("%0.0f\n", total);
+
 
 	return (0);
 }
