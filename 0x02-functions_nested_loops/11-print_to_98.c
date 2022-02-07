@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  *print_last_digit - asas
@@ -12,13 +12,13 @@ void print_to_98(int n)
 	{
 		while (n > 98)
 			printf("%d, ", n--);
-		_putchar("%d\n", n);
+		printf("%d\n", n);
 	}
 
 	else
 	{
 		while (n < 98)
 			printf("%d, ", n++);
-		_putchar("%d\n", n);
+		printf("%d\n", n);
 	}
 }
