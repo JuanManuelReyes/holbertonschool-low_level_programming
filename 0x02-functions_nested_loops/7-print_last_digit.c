@@ -8,7 +8,7 @@
 */
 int print_last_digit(int n)
 {
-	int las-dig = n % 10
+	int las-dig = n % 10;
 
 	if(las-dig < 0)
 		las-dig *= -1;
