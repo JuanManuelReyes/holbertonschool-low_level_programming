@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_islower - asas
+ *_isalpha - asas
  *
  *@c: sdf
  * Return:asd
