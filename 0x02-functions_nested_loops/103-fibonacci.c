@@ -20,7 +20,7 @@ long total;
 		if ((sum % 2) == 0)
 			total += sum;
 
-		n1 = fib2;
+		n1 = n2;
 		n2 = sum;
 	}
 	printf("%ld\n", total);
