@@ -9,9 +9,9 @@
 int main(void)
 {
 	int i;
-	long long n1 = 0, n2 = 1, sum;
-	long long n1_h1, n1_h2, n2_h1, n2_h2;
-	long long h1, h2;
+	unsigned  long n1 = 0, n2 = 1, sum;
+	unsigned  long n1_h1, n1_h2, n2_h1, n2_h2;
+	unsigned  long h1, h2;
 
 	for (i = 0; i < 92; i++)
 	{
