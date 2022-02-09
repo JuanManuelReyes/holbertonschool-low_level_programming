@@ -24,7 +24,9 @@ int main(void)
 		else
 			printf("%d", num);
 
-		/*Puede que falte algo aca*/
+		if (num == 100)
+			continue;
+
 		printf(" ");
 	}
 
