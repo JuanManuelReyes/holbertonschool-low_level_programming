@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *add - asas
- *@b: asd
- *@a: sdf
+ *main - asas
+ *
+ *
  * Return:asd
 */
 int main(void)
@@ -25,7 +25,6 @@ int main(void)
 			printf("%d", num);
 
 		/*Puede que falte algo aca*/
-		
 		printf(" ");
 	}
 
