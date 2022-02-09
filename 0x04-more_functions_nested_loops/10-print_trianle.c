@@ -3,7 +3,7 @@
 /**
  *print_triangle - asas
  *
- *
+ *@size: asd
  * 
 */
 void print_triangle(int size)
@@ -14,7 +14,7 @@ void print_triangle(int size)
 	{
 		for (x = 1; x <= size; x++)
 		{
-			for (i= size - x; i> 0; i--)
+			for (i = size - x; i > 0; i--)
 				_putchar(' ');
 
 			for (i= 0; i < x; i++)
@@ -25,6 +25,7 @@ void print_triangle(int size)
 
 			_putchar('\n');
 		}
-	}	
+	}
+	_putchar('\n')
 }
 
