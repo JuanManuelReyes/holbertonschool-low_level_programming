@@ -2,7 +2,7 @@
 
 /**
  *print_numbers|- asas
- *@b: asd
+ *
  *
  * Return:asd
 */
