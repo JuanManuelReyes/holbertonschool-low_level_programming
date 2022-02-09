@@ -3,29 +3,29 @@
 /**
  *print_triangle - asas
  *
- *@size: asd
- * 
+ *
+ * @size: asd
 */
 void print_triangle(int size)
 {
-	int x, i;
+	int hash, index;
 
 	if (size > 0)
 	{
-		for (x = 1; x <= size; x++)
+		for (hash = 1; hash <= size; hash++)
 		{
-			for (i = size - x; i > 0; i--)
+			for (index = size - hash; index > 0; index--)
 				_putchar(' ');
 
-			for (i= 0; i < x; i++)
+			for (index = 0; index < hash; index++)
 				_putchar('#');
 
-			if (x == size)
+			if (hash == size)
 				continue;
 
 			_putchar('\n');
 		}
 	}
-	_putchar('\n')
-}
 
+	_putchar('\n');
+}
