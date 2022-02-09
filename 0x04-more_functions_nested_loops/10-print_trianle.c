@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- *add - asas
- *@b: asd
- *@a: sdf
- * Return:asd
+ *print_triangle - asas
+ *
+ *
+ * 
 */
 void print_triangle(int size)
 {
-int x, i;
+	int x, i;
 
 	if (size > 0)
 	{
