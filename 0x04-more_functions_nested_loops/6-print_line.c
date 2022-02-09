@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *add - asas
- *@b: asd
- *@a: sdf
+ *print_line - asas
+ *@n: asd
+ *
  * Return:asd
 */
 void print_line(int n)
@@ -12,7 +12,7 @@ void print_line(int n)
 
 	if (n >= 1)
 	{
-		for (lenght= 0; lenght< n; lenght++)
+		for (lenght = 0; lenght < n; lenght++)
 			_putchar('_');
 	}
 

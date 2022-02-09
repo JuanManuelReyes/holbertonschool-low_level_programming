@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- *add - asas
- *@b: asd
- *@a: sdf
+ *print_diagonal - asas
+ *@n: asd
+ *
  * Return:asd
 */
 void print_diagonal(int n)
 {
-	
+
 int lenght, blank;
 	if (n > 0)
 	{
-		for (lenght= 0; lenght< n; lenght++)
+		for (lenght = 0; lenght < n; lenght++)
 		{
-			for (blank= 0; blank< lenght; blank++)
+			for (blank = 0; blank < lenght; blank++)
 				_putchar(' ');
 			_putchar('\\');
 

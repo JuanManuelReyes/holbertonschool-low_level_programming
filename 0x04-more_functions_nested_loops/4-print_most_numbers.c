@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *add - asas
- *@b: asd
- *@a: sdf
+ *print_most_numbers - asas
+ *
+ *
  * Return:asd
 */
 void print_most_numbers(void)

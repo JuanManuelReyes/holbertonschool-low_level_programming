@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *add - asas
- *@b: asd
- *@a: sdf
+ *more_numbers - asas
+ *
+ *
  * Return:asd
 */
 void more_numbers(void)
