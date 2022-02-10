@@ -1,37 +1,36 @@
 #include "main.h"
 
 /**
- *print_number- asas
- *@n: asd
+ *print_number - asas
  *
  *
+ * @n: asd
 */
 void print_number(int n)
 {
-	unsigned int dc, nat, dig;
-	double f = 1;
+	unsigned int tens, digit, positive = n;
+	double t_beg = 1;
 
-	nat = n;
-
-	if (nat == 0)
-		_putchat('0');
+	if (n == 0)
+		_putchar('0');
 	else
 	{
 		if (n < 0)
 		{
-			nat = -n;
-			_putchat('-');
+			positive = n * -1;
+			_putchar('-');
 		}
-		while (f <= nat)
-			f *= 10;
-		dc = f / 10;
 
-		while (dc >= 1)
+		while (t_beg <= positive)
+			t_beg *= 10;
+		tens = t_beg / 10;
+
+		while (tens >= 1)
 		{
-			dig = nat / f;
-			_putchar(dig + '0');
-			nat = (nat - (dc * dig));
-			dc /= 10;
+			digit = positive / tens;
+			_putchar(digit + '0');
+			positive = (positive - (tens * digit));
+			tens /= 10;
 		}
 	}
 }
