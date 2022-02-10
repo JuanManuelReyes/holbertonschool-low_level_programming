@@ -2,22 +2,38 @@
 
 /**
  *print_number- asas
- *
+ *@n: asd
  *
  * Return:asd
 */
 void print_number(int n)
 }
-	unsigned int num = n;
+	unsigned int dc, nat, dig;
+	double f = 1;
 
+	nat = n;
+
+
+	if (nat == 0)
+		_putchat('0');
+	else
+	{
 	if (n < 0)
 	{
-		_putchar('-');
-		num = -num;
+		nat = -n;
+		_putchat('-');
 	}
 
-	if ((num / 10) > 0)
-		print_number(num / 10);
+	while (f <= nat)
+		f *= 10;
+	dc = f / 10;
 
-	_putchar((num % 10) + '0');
+	while (dc >= 1)
+	{
+		dig = nat / f;
+		_putchar(dig + '0');
+		nat = (nat - (dc * dig));
+		dc /= 10;
+	}
+}
 }
