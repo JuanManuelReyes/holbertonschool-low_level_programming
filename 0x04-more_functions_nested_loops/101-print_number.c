@@ -4,7 +4,7 @@
  *print_number- asas
  *@n: asd
  *
- * Return:asd
+ *
 */
 void print_number(int n)
 {
