@@ -11,9 +11,13 @@ void rev_string(char *s)
 	char sup;
 
 	while (s[pos] != '\0')
+	{
 		pos++;
+		sup++;
+	}
+		
 
-	for (i = pos - 1; i >= 0; i--)
+	for (i = pos - 1; i >= pos/2; i--)
 	{
 		sup = s[i];
 		s[i] = s[pos - i -1];
