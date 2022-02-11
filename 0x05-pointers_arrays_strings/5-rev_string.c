@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_rev - asd
+ *rev_string - asd
  *@s: asd
  *
  */
