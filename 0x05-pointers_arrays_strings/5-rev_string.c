@@ -15,12 +15,11 @@ void rev_string(char *s)
 		pos++;
 		sup++;
 	}
-		
 
-	for (i = pos - 1; i >= pos/2; i--)
+	for (i = pos - 1; i >= pos / 2; i--)
 	{
 		sup = s[i];
-		s[i] = s[pos - i -1];
+		s[i] = s[pos - i - 1];
 		s[pos - i - 1] = sup;
 	}
 }
