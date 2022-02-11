@@ -17,7 +17,7 @@ void puts_half(char *str)
 		n = pos / 2;
 
 	else
-		n = (pos - 1) / 2;
+		n = (pos + 1) / 2;
 
 
 	for (i = n; i < pos; i++)
