@@ -8,8 +8,8 @@
 */
 void print_number(int n)
 {
-	unsigned int tens, digit, positive = n;
-	double t_beg = 1;
+	unsigned int dc, dig, nat = n;
+	double f = 1;
 
 	if (n == 0)
 		_putchar('0');
@@ -17,20 +17,20 @@ void print_number(int n)
 	{
 		if (n < 0)
 		{
-			positive = n * -1;
+			nat = n * -1;
 			_putchar('-');
 		}
 
-		while (t_beg <= positive)
-			t_beg *= 10;
-		tens = t_beg / 10;
+		while (f <= nat)
+			f *= 10;
+		dc = f / 10;
 
-		while (tens >= 1)
+		while (dc >= 1)
 		{
-			digit = positive / tens;
-			_putchar(digit + '0');
-			positive = (positive - (tens * digit));
-			tens /= 10;
+			dig = nat / dc;
+			_putchar(dig + '0');
+			nat = (nat - (dc * dig));
+			dc /= 10;
 		}
 	}
 }
