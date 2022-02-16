@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ *main - asd
+ *Return: asd
+ *
+ **/
 int main(void)
 {
 int n;
