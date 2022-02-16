@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*reverse_array- asd
-*@a: asd
-*@n: asd
+*leet - asd
+*@encoded: asd
+*Return: asd
 **/
 char *leet(char *encoded)
 {

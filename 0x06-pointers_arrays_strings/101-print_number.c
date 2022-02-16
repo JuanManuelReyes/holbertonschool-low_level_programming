@@ -1,7 +1,6 @@
 #include "main.h"
 /**
-*reverse_array- asd
-*@a: asd
+*print_number - asd
 *@n: asd
 **/
 void print_number(int n)

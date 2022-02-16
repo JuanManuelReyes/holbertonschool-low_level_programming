@@ -1,12 +1,12 @@
 #include "main.h"
 /**
-*reverse_array- asd
-*@a: asd
-*@n: asd
+*rot13 - asd
+*@encoded: asd
+*Return: asd
 **/
 char *rot13(char *encoded)
 {
-	int i = 0, x = 0;
+int i = 0, x = 0;
 
 	char base[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char chng[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
@@ -20,5 +20,5 @@ char *rot13(char *encoded)
 		}
 	}
 
-	return (encoded);	
+	return (encoded);
 }
