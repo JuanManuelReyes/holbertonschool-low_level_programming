@@ -17,7 +17,7 @@ int i = 0, x = 0;
 		{
 			if (encoded[i] == base[x])
 			{
-				encode[i] = chng[x];
+				encoded[i] = chng[x];
 				break;
 			}
 		}
