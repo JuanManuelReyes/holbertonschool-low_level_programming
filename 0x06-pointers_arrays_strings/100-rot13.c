@@ -32,11 +32,11 @@ char *rot13(char *encoded)
 	{
 		for (x = 0; x < 52; x++)
 		{
-			 if (encoded[i] == base[x])
-                        {
-                                encoded[i] = chng[x];
-                                break;
-                        }
+			if (encoded[i] == base[x])
+			{
+				encoded[i] = chng[x];
+				break;
+			}
 		}
 		i++;
 	}
