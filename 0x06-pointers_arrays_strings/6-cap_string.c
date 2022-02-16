@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*reverse_array- asd
-*@a: asd
-*@n: asd
+*cap_string - asd
+*@string: asd
+*Return: asd
 **/
 char *cap_string(char *string)
 {
@@ -13,7 +13,7 @@ char *cap_string(char *string)
 		while (!(string[i] >= 'a' && string[i] <= 'z'))
 			i++;
 
-		if(string[i - 1] == ' ' || string[i - 1] == '\n' || string[i - 1] == '\t' ||
+		if (string[i - 1] == ' ' || string[i - 1] == '\n' || string[i - 1] == '\t' ||
 		string[i - 1] == ',' || string[i - 1] == ';' || string[i - 1] == '.' ||
 		string[i - 1] == '!' || string[i - 1] == '?' || string[i - 1] == '"' ||
 		string[i - 1] == '(' || string[i - 1] == ')' || string[i - 1] == '{' ||
