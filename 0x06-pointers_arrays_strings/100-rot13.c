@@ -16,9 +16,10 @@ int i = 0, x = 0;
 		for (x = 0; base[i] != '\0'; x++)
 		{
 			if (encoded[i] == base[x])
-				encoded[i] = chng[x];
-
-			break;
+			{
+				encode[i] = chng[x];
+				break;
+			}
 		}
 	}
 
