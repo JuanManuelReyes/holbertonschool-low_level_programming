@@ -24,5 +24,5 @@ int i, x;
 			return (same);
 
 	}
-	return (same);	
+	return (same);
 }

@@ -1,8 +1,7 @@
 #include "main.h"
 /**
-*_memset- asd
-*@n: asd
-*@b: asd
+*_strpbrk- asd
+*@accept: asd
 *@s: asd
 *Return: asd
 **/
