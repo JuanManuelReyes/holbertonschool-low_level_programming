@@ -5,4 +5,7 @@
 *@s: asd
 *Return: asd
 **/
-
+char *_strstr(char *haystack, char *needle)
+{
+	
+}
