@@ -1,6 +1,7 @@
 /**
-*_strlen_recursion- asd
-*@s: asd
+*wildcmp- asd
+*@s1: asd
+*@s2: asd
 *Return: asd
 **/
 int wildcmp(char *s1, char *s2)
