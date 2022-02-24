@@ -38,7 +38,7 @@ int palindrome(char *s, int i, int x)
 }
 
 /**
-*_strlen_recursion- asd
+*is_palindrome- asd
 *@s: asd
 *Return: asd
 **/
