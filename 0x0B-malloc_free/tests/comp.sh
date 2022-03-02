@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 gcc 0-main.c ../0-create_array.c -o a
 gcc 1-main.c ../1-strdup.c -o s
 gcc 2-main.c ../2-str_concat.c -o 2-str_concat
