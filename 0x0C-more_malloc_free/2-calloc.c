@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
- *str_concat - asd
- *@s1: asd
- *@s2: asd
+ *_calloc - asd
+ *@size: asd
+ *@nmemb: asd
  *Return: asd
  **/
 void *_calloc(unsigned int nmemb, unsigned int size)
