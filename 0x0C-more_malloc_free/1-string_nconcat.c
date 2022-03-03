@@ -3,9 +3,10 @@
 #include "main.h"
 
 /**
- *create_array - asd
- *@size: asd
- *@c: asd
+ *string_nconcat - asd
+ *@s1: asd
+ *@s2: asd
+ *@n: asd
  *Return: asd
  **/
 char *string_nconcat(char *s1, char *s2, unsigned int n)
