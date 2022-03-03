@@ -5,6 +5,7 @@
 /**
  *malloc_checked - asd
  *@b: asd
+ *Return: asd
  **/
 void *malloc_checked(unsigned int b)
 {
@@ -13,7 +14,7 @@ void *malloc_checked(unsigned int b)
 	mem_space = malloc(b);
 
 	if (mem_space == NULL)
-		exit (98);
+		exit(98);
 
 	return (mem_space);
 }
