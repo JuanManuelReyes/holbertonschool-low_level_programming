@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
- *alloc_grid - asd
- *@width: asd
- *@height: asd
+ *array_range - asd
+ *@min: asd
+ *@max: asd
  *Return: asd
  **/
 int *array_range(int min, int max)
@@ -25,6 +25,6 @@ int *array_range(int min, int max)
 
 	for (i = 0; i < size && min <= max; i++, min++)
 		*(array + i) = min;
-	
+
 	return (array);
 }
