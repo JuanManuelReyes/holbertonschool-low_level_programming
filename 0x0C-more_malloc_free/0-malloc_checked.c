@@ -3,10 +3,8 @@
 #include "main.h"
 
 /**
- *create_array - asd
- *@size: asd
- *@c: asd
- *Return: asd
+ *malloc_checked - asd
+ *@b: asd
  **/
 void *malloc_checked(unsigned int b)
 {
