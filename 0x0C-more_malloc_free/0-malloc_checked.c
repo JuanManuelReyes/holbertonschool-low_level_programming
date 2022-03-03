@@ -8,7 +8,7 @@
  **/
 void *malloc_checked(unsigned int b)
 {
-	void *mem_space;
+	int *mem_space;
 
 	mem_space = malloc(b);
 
