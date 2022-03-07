@@ -10,6 +10,8 @@ int main(void)
 {
 	int n, i = 2772;
 
+	srand(time(NULL));
+
 	n = rand() % 98;
 
 	while (i != 0)
