@@ -5,6 +5,7 @@
 *@n2: asd
 *@r: asd
 *@size_r: asd
+*Return: asd
 **/
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
