@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-*print_buffer - asd
+*prt_buffer - asd
 *@b: asd
 *@size: asd
 **/
@@ -33,7 +33,7 @@ void print_buffer(char *b, int size)
 				if (y >= size)
 					break;
 				else if (*(b + y) < 32 || *(b + y) > 126)
-					printf("%c", ".");
+					printf("%c", '.');
 				else
 					printf("%c", *(b + y));
 			}
