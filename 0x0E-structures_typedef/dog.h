@@ -1,6 +1,12 @@
 #ifndef DOG_H
 #define DOG_H
 
+/**
+ *struct dog - asd
+ *@name: asd
+ *@age: asd
+ *@owner: asd
+ **/
 struct dog
 {
 	char *name;
@@ -8,6 +14,9 @@ struct dog
 	char *owner;
 };
 
+/**
+ *dog_t - asd
+ **/
 typedef struct dog dog_t;
 
 int _putchar(char c);
