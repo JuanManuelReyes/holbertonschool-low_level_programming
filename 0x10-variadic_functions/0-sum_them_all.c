@@ -4,7 +4,7 @@
 /**
  * sum_them_all - asd
  * @n: asd
- * Return: asd
+ * Return: asdd
  */
 int sum_them_all(const unsigned int n, ...)
 {
