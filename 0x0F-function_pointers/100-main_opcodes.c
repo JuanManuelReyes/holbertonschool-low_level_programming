@@ -27,8 +27,11 @@ int main(int argc, char *argv[])
 
 	while (i < num)
 	{
-		printf("%02x", *((char *)main + 1));
-		printf(" ");
+		printf("%02x", *((char *)main + i));
+
+		if (num > i)
+			printf(" ");
+
 		i++;
 	}
 
