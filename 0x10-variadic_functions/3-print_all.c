@@ -53,7 +53,7 @@ void print_all(const char * const format, ...)
 {
 	int i = 0, x = 0;
 
-	char *separator = ", ";
+	char *separator = "";
 
 	print_t op[] = {
 		{"c", print_c},
@@ -74,6 +74,7 @@ void print_all(const char * const format, ...)
 			if (*(op[x].type) == format[i])
 			{
 				printf("%s", separator);
+				separator = ", "
 				op[x].func(args);
 				break;
 			}
