@@ -19,6 +19,7 @@ void print_c(va_list c)
 void print_s(va_list s)
 {
 	char *str;
+
 	str = va_arg(s, char *);
 
 	if (str == NULL)
@@ -64,7 +65,7 @@ void print_all(const char * const format, ...)
 		{'\0', NULL}
 	};
 
-        int i = 0, x = 0;
+	int i = 0, x = 0;
 	va_list args;
 	char *separator = "";
 
