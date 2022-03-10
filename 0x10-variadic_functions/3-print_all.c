@@ -68,7 +68,10 @@ void print_all(const char * const format, ...)
 	{
 		while (op[x].type != NULL)
 		{
-			
+			if (*(op[x].type) == format[i])
+			{
+				op[x].func(args);
+			}	
 		}
 	}
 
