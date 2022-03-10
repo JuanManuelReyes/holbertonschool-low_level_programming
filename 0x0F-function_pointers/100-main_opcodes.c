@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stlib.h>
+#include <stdlib.h>
 
 /**
  *main - asd
@@ -23,5 +23,11 @@ int main(int argc, char *argv[])
 	{
 		printf("Error\n");
 		exit(2);
+	}
+
+	for (i = 0; i < num; i++)
+	{
+		printf("%02x", *((char *)main + 1));
+
 	}
 }
