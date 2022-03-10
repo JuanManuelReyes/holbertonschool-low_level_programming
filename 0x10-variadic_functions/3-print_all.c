@@ -18,7 +18,8 @@ void print_c(va_list c)
  */
 void print_s(va_list s)
 {
-	char *str = va_arg(s, char *);
+	char *str;
+	str = va_arg(s, char *);
 
 	if (str == NULL)
 	{
@@ -56,11 +57,11 @@ void print_f(va_list f)
 void print_all(const char * const format, ...)
 {
 	print_t op[] = {
-		{"c", print_c},
-		{"i", print_i},
-		{"f", print_f},
-		{"s", print_s},
-		{NULL, NULL}
+		{'c', print_c},
+		{'i', print_i},
+		{'f', print_f},
+		{'s', print_s},
+		{'\0', NULL}
 	};
 
         int i = 0, x = 0;
@@ -69,16 +70,15 @@ void print_all(const char * const format, ...)
 
 	va_start(args, format);
 
-	while (format && format[i])
+	while (format != NULL && format[i] != '\0')
 	{
-		while (op[x].type != NULL)
+		while (op[x].type != '\0')
 		{
-			if (*(op[x].type) == format[i])
+			if (op[x].type == format[i])
 			{
 				printf("%s", separator);
 				op[x].func(args);
 				separator = ", ";
-				break;
 			}
 
 			x++;
