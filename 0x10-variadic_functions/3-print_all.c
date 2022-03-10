@@ -1,6 +1,7 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * print_c - asd
@@ -51,6 +52,7 @@ void print_f(va_list f)
 void print_all(const char * const format, ...)
 {
 	int i = 0, x = 0;
+	char *separator;
 
 	print_t op[] = {
 		{"c", print_c},
@@ -71,8 +73,15 @@ void print_all(const char * const format, ...)
 			if (*(op[x].type) == format[i])
 			{
 				op[x].func(args);
-			}	
+				separator = " ";
+				break;
+			}
+
+			x++;	
 		}
+
+		i++;
 	}
+
 
 }
