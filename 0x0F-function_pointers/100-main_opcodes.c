@@ -29,10 +29,10 @@ int main(int argc, char *argv[])
 	{
 		printf("%02x", *((unsigned char *)main + i));
 
+		i++;
+
 		if (num > i)
 			printf(" ");
-
-		i++;
 	}
 
 	printf("\n");
