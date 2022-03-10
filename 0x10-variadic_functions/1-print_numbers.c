@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * sum_them_all - asd
+ * print_numbers - asd
+ * @separator: asd
  * @n: asd
- * Return: asd
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
