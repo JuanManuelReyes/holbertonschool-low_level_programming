@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
 	while (i < num)
 	{
 		printf("%02x", *((char *)main + 1));
+		printf(" ");
 		i++;
 	}
 }
