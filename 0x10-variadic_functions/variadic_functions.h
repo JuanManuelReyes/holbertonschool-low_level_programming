@@ -9,5 +9,16 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
+/**
+ * struct print - asd
+ * @type: asd
+ * @func: asd
+ **/
+
+typedef struct print
+{
+	char *type;
+	void (*func)(va_list);
+} print_t;
 
 #endif
