@@ -57,7 +57,7 @@ void print_f(va_list f)
  */
 void print_all(const char * const format, ...)
 {
-	int i = 0, x;
+	int i, x;
 	va_list args;
 	char *separator = "";
 
@@ -71,7 +71,8 @@ void print_all(const char * const format, ...)
 	};
 
 	va_start(args, format);
-
+	
+	i = 0;
 	while (format != NULL && format[i] != '\0')
 	{
 		x = 0;
