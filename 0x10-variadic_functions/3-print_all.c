@@ -60,8 +60,8 @@ void print_all(const char * const format, ...)
 	};
 
         int i = 0, x = 0;
-	char *separator = "";
 	va_list args;
+	char *separator = "";
 
 	va_start(args, format);
 
