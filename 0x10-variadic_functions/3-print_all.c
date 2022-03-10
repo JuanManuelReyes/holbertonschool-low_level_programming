@@ -4,6 +4,18 @@
 #include <stdlib.h>
 
 /**
+ * struct print - asd
+ * @type: asd
+ * @func: asd
+ **/
+
+typedef struct print
+{
+	char *type;
+	void (*func)(va_list);
+} print_t;
+
+/**
  * print_c - asd
  * @c: asd
  */
