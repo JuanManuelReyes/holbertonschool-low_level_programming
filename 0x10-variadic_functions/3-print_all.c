@@ -50,7 +50,7 @@ void print_f(va_list f)
  */
 void print_all(const char * const format, ...)
 {
-	int i, x;
+	int i = 0, x = 0;
 
 	print_t op[] = {
 		{"c", print_c},
@@ -59,4 +59,11 @@ void print_all(const char * const format, ...)
 		{"s", print_s},
 		{NULL, NULL}
 	};
+
+	va_list args;
+
+	va_start(args, format);
+
+	while (format != NULL && format[i] != '\0')
+
 }
