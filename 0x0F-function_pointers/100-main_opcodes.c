@@ -6,7 +6,7 @@
  *@argc:asd
  *@argv: asd
  *Return: asd
- **/ 
+ **/
 int main(int argc, char *argv[])
 {
 	int i, num;
