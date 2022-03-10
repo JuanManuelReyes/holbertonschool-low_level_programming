@@ -51,10 +51,6 @@ void print_f(va_list f)
  */
 void print_all(const char * const format, ...)
 {
-	int i = 0, x = 0;
-
-	char *separator = "";
-
 	print_t op[] = {
 		{"c", print_c},
 		{"i", print_i},
@@ -63,19 +59,21 @@ void print_all(const char * const format, ...)
 		{NULL, NULL}
 	};
 
+        int i = 0, x = 0;
+	char *separator = "";
 	va_list args;
 
 	va_start(args, format);
 
-	while (format != NULL && format[i] != '\0')
+	while (format && format[i])
 	{
 		while (op[x].type != NULL)
 		{
 			if (*(op[x].type) == format[i])
 			{
 				printf("%s", separator);
-				separator = ", "
 				op[x].func(args);
+				separator = ", ";
 				break;
 			}
 
