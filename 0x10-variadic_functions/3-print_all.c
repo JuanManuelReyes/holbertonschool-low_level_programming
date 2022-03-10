@@ -58,8 +58,8 @@ void print_f(va_list f)
 void print_all(const char * const format, ...)
 {
 	int i = 0, x;
-        va_list args;
-        char *separator = "";
+	va_list args;
+	char *separator = "";
 
 
 	print_t op[] = {
