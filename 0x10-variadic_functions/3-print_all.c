@@ -24,7 +24,7 @@ void print_s(va_list s)
 
 	if (str == NULL)
 	{
-		printf("(nil)");
+			iprintf("(nil)");
 		return;
 	}
 
@@ -71,7 +71,7 @@ void print_all(const char * const format, ...)
 	};
 
 	va_start(args, format);
-	
+
 	i = 0;
 	while (format != NULL && format[i] != '\0')
 	{
