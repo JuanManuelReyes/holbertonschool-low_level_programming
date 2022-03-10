@@ -7,12 +7,13 @@
  * struct print - asd
  * @type: asd
  * @func: asd
- */
+ *
 typedef struct print
 {
 	char *type;
 	void (*func)(va_list);
 } print_t;
+**/
 
 int _putchar(char);
 int sum_them_all(const unsigned int n, ...);
