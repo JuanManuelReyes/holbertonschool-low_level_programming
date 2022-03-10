@@ -24,10 +24,9 @@ void print_s(va_list s)
 
 	if (str == NULL)
 	{
-			iprintf("(nil)");
+		printf("(nil)");
 		return;
 	}
-
 
 	printf("%s", str);
 }
