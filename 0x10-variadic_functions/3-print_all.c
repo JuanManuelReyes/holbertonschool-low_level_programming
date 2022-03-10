@@ -50,5 +50,13 @@ void print_f(va_list f)
  */
 void print_all(const char * const format, ...)
 {
+	int i, x;
 
+	print_t op[] = {
+		{"c", print_c},
+		{"i", print_i},
+		{"f", print_f},
+		{"s", print_s},
+		{NULL, NULL}
+	};
 }
