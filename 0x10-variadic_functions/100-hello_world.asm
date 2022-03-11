@@ -1,18 +1,12 @@
-section .data
-msg: DB 'Hello, World', 10
-msgSize EQU $ msg
-
-global start
-
 section .text
-
-start:
-mov rax, 4
-mov rbx, 1
-mov rcx, msg
-mov rdx, msgSize
-int 0x80
-mov rax, 1
-mov rbx, 0
-int 0x80
-ret
+	global main
+main:
+	mov ebx,1
+	mov ecx,msg
+	mov edx,17
+	mov eax,4
+	int 0x80
+	mov eax,0
+	int 0x80
+section .data
+	msg db 'Hello, Holberton',0xa
