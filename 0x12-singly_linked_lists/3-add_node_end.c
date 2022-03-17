@@ -2,7 +2,8 @@
 
 /**
  *add_node_end - asd
- *@h: asd
+ *@head: asd
+ *@str: asd
  *Return: asd
  **/
 list_t *add_node_end(list_t **head, const char *str)

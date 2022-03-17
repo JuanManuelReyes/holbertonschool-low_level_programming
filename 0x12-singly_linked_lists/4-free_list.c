@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- *print_list - asd
- *@h: asd
+ *free_list - asd
+ *@head: asd
  *Return: asd
  **/
 void free_list(list_t *head)
@@ -19,4 +19,3 @@ void free_list(list_t *head)
 		actual = next;
 	}
 }
-	
