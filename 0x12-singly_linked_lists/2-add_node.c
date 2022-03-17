@@ -1,6 +1,22 @@
 #include "lists.h"
 
 /**
+ * _strlen - asd
+ * @string: asd
+ * Return: asd
+ **/
+unsigned int _strlen(const char *string)
+{
+	unsigned int i = 0;
+
+	while (string[i] != '\0')
+		i++;
+
+	return (i);
+}
+
+
+/**
  *print_list - asd
  *@head: asd
  *@str: asd
@@ -8,9 +24,7 @@
  **/
 list_t *add_node(list_t **head, const char *str)
 {
-	unsigned int i = 0;
 	list_t *new_list;
-
 
 	if(str == NULL)
 		return (NULL);
@@ -21,7 +35,9 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 
 	new_list->str = strdup(str);
+	new_list->len = _strlen(str);
+	new_list->next = *head;
+	*head = new_list;
 
-
-	
+	return (new_list);
 }
