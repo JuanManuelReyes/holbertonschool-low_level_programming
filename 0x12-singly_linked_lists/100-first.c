@@ -1,7 +1,4 @@
-#include "list.h"
-
-/*before main*/
-void before_main(void) __attribute__((constructor));
+#include "lists.h"
 
 /**
  *before_main - asd
