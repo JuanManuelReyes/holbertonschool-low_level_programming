@@ -17,7 +17,7 @@ unsigned int _strlen(const char *string)
 
 
 /**
- *print_list - asd
+ *add_node - asd
  *@head: asd
  *@str: asd
  *Return: asd
@@ -26,7 +26,7 @@ list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new_list;
 
-	if(str == NULL)
+	if (str == NULL)
 		return (NULL);
 
 	new_list = malloc(sizeof(list_t));
