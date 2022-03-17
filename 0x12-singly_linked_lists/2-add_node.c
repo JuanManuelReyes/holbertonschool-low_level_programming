@@ -8,7 +8,9 @@
  **/
 list_t *add_node(list_t **head, const char *str)
 {
+	unsigned int i = 0;
 	list_t *new_list;
+
 
 	if(str == NULL)
 		return (NULL);
@@ -18,6 +20,7 @@ list_t *add_node(list_t **head, const char *str)
 	if (new_list == NULL)
 		return (NULL);
 
+	new_list->str = strdup(str);
 
 
 	
