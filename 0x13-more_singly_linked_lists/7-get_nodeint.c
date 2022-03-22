@@ -1,8 +1,9 @@
 #include "lists.h"
 
 /**
- *free_list - asd
+ *get_nodeint_at_index - asd
  *@head: asd
+ *@index: asd
  *Return: asd
  **/
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
@@ -12,7 +13,7 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 
 	if (head == NULL)
 		return (NULL);
-	
+
 	aux = head;
 
 	while (len != index)

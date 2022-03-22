@@ -1,14 +1,16 @@
 #include "lists.h"
 
 /**
- *free_list - asd
+ *sum_listint - asd
  *@head: asd
  *Return: asd
  **/
 int sum_listint(listint_t *head)
 {
 	int sum = 0;
-	listint_t *nose; 
+
+	listint_t *nose;
+
 	nose = head;
 
 	if (head == NULL)
