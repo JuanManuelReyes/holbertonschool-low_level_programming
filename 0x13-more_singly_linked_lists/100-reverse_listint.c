@@ -1,9 +1,8 @@
 #include "lists.h"
 
 /**
- *delete_nodeint_at_index - asd
+ *reverse_listint - asd
  *@head: asd
- *@index: asd
  *Return: asd
  **/
 listint_t *reverse_listint(listint_t **head)
