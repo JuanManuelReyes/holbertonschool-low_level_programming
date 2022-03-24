@@ -4,6 +4,7 @@
  *get_bit - asd
  *@n: asd
  *@index: asd
+ *Return: asd
  **/
 int get_bit(unsigned long int n, unsigned int index)
 {

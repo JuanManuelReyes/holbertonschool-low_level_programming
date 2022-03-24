@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *binary_to_uint - asd
- *@b: asd
+ *print_binary - asd
+ *@n: asd
  *Return: asd
  **/
 void print_binary(unsigned long int n)
