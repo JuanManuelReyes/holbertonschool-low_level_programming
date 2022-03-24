@@ -18,6 +18,7 @@ unsigned int _strlen(const char *string)
 /**
  *binary_to_uint - asd
  *@b: asd
+ *Return: asd
  **/
 unsigned int binary_to_uint(const char *b)
 {
