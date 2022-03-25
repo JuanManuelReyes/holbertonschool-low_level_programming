@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- *
- *
- *
- *
- *
+ *flip_bits - asd
+ *@n: asd
+ *@m: asd
+ *Return: asd
  **/
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
