@@ -18,7 +18,7 @@ unsigned int _strlen(const char *string)
 /**
  *create_file - asd
  *@filename: asd
- *text_content: asd
+ *@text_content: asd
  *Return: asd
  **/
 int create_file(const char *filename, char *text_content)
