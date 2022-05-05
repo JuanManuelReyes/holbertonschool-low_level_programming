@@ -1,10 +1,9 @@
 #include <lists.h>
 
 /**
- *
- *
- *
- *
+ * free_dlistint - asd
+ * @head: asd
+ * Return: asd
  **/
 void free_dlistint(dlistint_t *head)
 {
