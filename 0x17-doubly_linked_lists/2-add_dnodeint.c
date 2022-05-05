@@ -1,10 +1,10 @@
-#include <"lists.h">
+#include "lists.h"
 
 /**
- *
- *
- *
- *
+ * add_nodeint - asd
+ * @head: asd
+ * @n: asd
+ * Return: asd
  **/
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
