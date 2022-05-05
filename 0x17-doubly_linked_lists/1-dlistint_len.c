@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * 
- * 
- * 
+ * dlistint_len - asd
+ * @h: asd
+ * Return: asd
  **/
 size_t dlistint_len(const dlistint_t *h)
 {
