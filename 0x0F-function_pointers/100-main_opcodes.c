@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 		i++;
 
 		if (num > i)
-			printf(" ");
+			printf(" ";
 	}
 
 	printf("\n");
