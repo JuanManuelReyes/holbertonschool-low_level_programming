@@ -32,7 +32,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 			free(sn->value);
 			sn->value = strdup(value);
 			free(nn);
-			return(1);
+			return (1);
 		}
 
 		sn = sn->next;
