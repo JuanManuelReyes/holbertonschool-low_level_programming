@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Practice task"""
+
+
 def island_perimeter(grid):
     """
     Tutorial
