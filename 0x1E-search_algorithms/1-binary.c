@@ -48,7 +48,7 @@ void print_array(int *array, size_t right, size_t left)
     for (idx = left; idx < right; idx++)
     {
         if (idx != right)
-            printf("%d, ", array[idx]);
+            printf("%d\n", array[idx]);
         else
             printf("%d\n", array[idx]);
     }
