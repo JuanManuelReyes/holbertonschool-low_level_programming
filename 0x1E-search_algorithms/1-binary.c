@@ -21,7 +21,7 @@ int binary_search(int *array, size_t size, int value)
 
     while (left_idx <= right_idx)
 	{
-		print_arr(array, right_idx, left_idx);
+		print_array(array, right_idx, left_idx);
 		mid_idx = (left_idx + right_idx) / 2;
 		if (array[mid_idx] == value)
 			return (mid_idx);
