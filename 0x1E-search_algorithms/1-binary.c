@@ -45,6 +45,7 @@ void print_array(int *array, size_t right, size_t left)
 {
 	while (right <= left)
 	{
+        printf("While: ");
 		printf("%d, ", array[right]);
 		right++;
 	}
