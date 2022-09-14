@@ -5,7 +5,7 @@
 /**
  * print_strings - asd
  * @separator: asd
- * @n: asd
+ * @n: asdd
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
